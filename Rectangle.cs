@@ -71,5 +71,11 @@ namespace Razrab_PO
             Console.WriteLine($"Разница: {Math.Abs(this.x - this.y)}");
             return Math.Abs(this.x - this.y);
         }
+
+        public double Double_size_area()
+        {
+            Console.WriteLine($"Площадь в 2 раза большего прямоугольника равна {4 * this.x * this.y}");
+            return 4 * this.x * this.y;
+        }
     }
 }
