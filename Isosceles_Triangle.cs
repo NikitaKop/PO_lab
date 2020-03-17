@@ -56,5 +56,18 @@ namespace Razrab_PO
                 return false;
             }
         }
+        public double Param_diff()
+        {
+            if (this.x > this.y)
+            {
+                Console.WriteLine("Боковая сторона больше");
+            }
+            else
+            {
+                Console.WriteLine("Основание больше");
+            }
+            Console.WriteLine($"Разница: {Math.Abs(this.x - this.y)}");
+            return Math.Abs(this.x - this.y);
+        }
     }
 }
