@@ -75,5 +75,13 @@ namespace Razrab_PO
             Console.WriteLine($"Площадь треугольника, большего в 2 раза, равна {2 * this.y * Height()}");
             return 2 * this.y * Height();
         }
+
+        public double Circle_radius()
+        {
+            double p = Perimeter() / 2;
+            double r = Math.Sqrt((p - this.x) * (p - this.x) * (p - this.y) / p);
+            Console.WriteLine($"Радиус вписанной окружности равен {r}");
+            return r;
+        }
     }
 }
