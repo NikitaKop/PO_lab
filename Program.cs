@@ -21,6 +21,7 @@ namespace Razrab_PO
             t1.Is_Perimeter_more_then_Area();
             t1.Is_square();
 
+            Console.WriteLine("Hello world");
 
             Isosceles_Triangle t2 = new Isosceles_Triangle();
             t2.x = 5;
